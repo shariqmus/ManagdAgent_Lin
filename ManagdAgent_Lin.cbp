@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ManagdAgent_Lin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ManagdAgent_Lin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lcurl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ManagdAgent_Lin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lcurl" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Unit filename="include/INIReader.h" />
+		<Unit filename="include/Info.h" />
+		<Unit filename="include/InfoSystem.h" />
+		<Unit filename="include/Logger.h" />
+		<Unit filename="include/ShellProcess.h" />
+		<Unit filename="include/Utility.h" />
+		<Unit filename="include/clue.hpp" />
+		<Unit filename="include/cxxtimer.h" />
+		<Unit filename="include/jsonxx.h" />
+		<Unit filename="include/log.h" />
+		<Unit filename="include/stdafx.h" />
+		<Unit filename="src/Info.cpp" />
+		<Unit filename="src/InfoSystem.cpp" />
+		<Unit filename="src/ManagdAgent_Lin.cpp" />
+		<Unit filename="src/ShellProcess.cpp" />
+		<Unit filename="src/Utility.cpp" />
+		<Unit filename="src/jsonxx.cc" />
+		<Unit filename="src/stdafx.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

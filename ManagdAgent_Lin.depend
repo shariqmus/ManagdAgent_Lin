@@ -1,0 +1,305 @@
+# depslib dependency file v1.0
+1512355542 source:/home/shariq/Development/cpp/ManagdAgent_Lin/Info.cpp
+	"stdafx.h"
+	"Info.h"
+
+1512792189 /home/shariq/Development/cpp/ManagdAgent_Lin/stdafx.h
+	"sys/types.h"
+	"sys/sysinfo.h"
+	"sys/statvfs.h"
+	"sys/utsname.h"
+	<stdio.h>
+	<unistd.h>
+	<array>
+	<cctype>
+	<chrono>
+	<cstdio>
+	<ctime>
+	<exception>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<iterator>
+	<limits>
+	<map>
+	<memory>
+	<regex>
+	<set>
+	<sstream>
+	<stdexcept>
+	<string>
+	<vector>
+	"jsonxx.h"
+	"INIReader.h"
+	"log.h"
+	"curl/curl.h"
+	"cxxtimer.h"
+
+1512355542 /home/shariq/Development/cpp/ManagdAgent_Lin/jsonxx.h
+	<cstddef>
+	<cassert>
+	<iostream>
+	<map>
+	<vector>
+	<string>
+	<sstream>
+
+1512625366 /home/shariq/Development/cpp/ManagdAgent_Lin/log.h
+	<sstream>
+	<string>
+	<stdio.h>
+	<windows.h>
+	<sys/time.h>
+
+1512355542 /home/shariq/Development/cpp/ManagdAgent_Lin/INIReader.h
+	<stdio.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	<map>
+	<set>
+	<string>
+	<algorithm>
+	<cctype>
+	<cstdlib>
+
+1512355542 /home/shariq/Development/cpp/ManagdAgent_Lin/cxxtimer.h
+	<chrono>
+
+1512355542 /home/shariq/Development/cpp/ManagdAgent_Lin/Info.h
+
+1512906225 source:/home/shariq/Development/cpp/ManagdAgent_Lin/InfoSystem.cpp
+	"stdafx.h"
+	"InfoSystem.h"
+	"Utility.h"
+	"ShellProcess.h"
+
+1512905949 /home/shariq/Development/cpp/ManagdAgent_Lin/InfoSystem.h
+	"Info.h"
+
+1512880250 /home/shariq/Development/cpp/ManagdAgent_Lin/Utility.h
+
+1512906253 /home/shariq/Development/cpp/ManagdAgent_Lin/ShellProcess.h
+
+1512355542 source:/home/shariq/Development/cpp/ManagdAgent_Lin/jsonxx.cc
+	"stdafx.h"
+	<stdio.h>
+	<cassert>
+	<cassert>
+
+1512906095 source:/home/shariq/Development/cpp/ManagdAgent_Lin/ManagdAgent_Lin.cpp
+	"stdafx.h"
+	"Utility.h"
+	"InfoSystem.h"
+
+1512880325 source:/home/shariq/Development/cpp/ManagdAgent_Lin/ShellProcess.cpp
+	"stdafx.h"
+	"ShellProcess.h"
+	"Utility.h"
+	"ShellProcess.h"
+
+1512355542 source:/home/shariq/Development/cpp/ManagdAgent_Lin/stdafx.cpp
+	"stdafx.h"
+
+1448636414 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1449039818 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/curlver.h
+
+1512517985 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1448636414 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/curlrules.h
+
+1448636414 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/easy.h
+
+1448636414 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/multi.h
+	"curl.h"
+
+1448636414 /home/shariq/Development/cpp/ManagdAgent_Lin/curl-7.46.0/include/curl/typecheck-gcc.h
+
+1512880352 source:/home/shariq/Development/cpp/ManagdAgent_Lin/Utility.cpp
+	"stdafx.h"
+	"Utility.h"
+
+1512618396 /home/shariq/Development/cpp/ManagdAgent_Lin/clue.hpp
+	<iomanip>
+	<sstream>
+	<cassert>
+	<iostream>
+	<windows.h>
+	<windows.h>
+	<syslog.h>
+	<ctime>
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/Info.cpp
+	"../include/stdafx.h"
+	"../include/Info.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/stdafx.h
+	"sys/types.h"
+	"sys/sysinfo.h"
+	"sys/statvfs.h"
+	"sys/utsname.h"
+	<stdio.h>
+	<unistd.h>
+	<array>
+	<cctype>
+	<chrono>
+	<cstdio>
+	<ctime>
+	<exception>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<iterator>
+	<limits>
+	<map>
+	<memory>
+	<regex>
+	<set>
+	<sstream>
+	<stdexcept>
+	<string>
+	<vector>
+	"../include/jsonxx.h"
+	"../include/INIReader.h"
+	"../include/log.h"
+	"../include/curl/curl.h"
+	"../include/cxxtimer.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/jsonxx.h
+	<cstddef>
+	<cassert>
+	<iostream>
+	<map>
+	<vector>
+	<string>
+	<sstream>
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/INIReader.h
+	<stdio.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	<map>
+	<set>
+	<string>
+	<algorithm>
+	<cctype>
+	<cstdlib>
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/log.h
+	<sstream>
+	<string>
+	<stdio.h>
+	<windows.h>
+	<sys/time.h>
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/curlver.h
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/curlrules.h
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/easy.h
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/multi.h
+	"curl.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/curl/typecheck-gcc.h
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/cxxtimer.h
+	<chrono>
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/Info.h
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/InfoSystem.cpp
+	"../include/stdafx.h"
+	"../include/InfoSystem.h"
+	"../include/Utility.h"
+	"../include/ShellProcess.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/InfoSystem.h
+	"Info.h"
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/Utility.h
+
+1512911179 /home/shariq/Development/cpp/ManagdAgent_Lin/include/ShellProcess.h
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/jsonxx.cc
+	"../include/stdafx.h"
+	<stdio.h>
+	<cassert>
+	<cassert>
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/ManagdAgent_Lin.cpp
+	"../include/stdafx.h"
+	"../include/Utility.h"
+	"../include/InfoSystem.h"
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/ShellProcess.cpp
+	"../include/stdafx.h"
+	"../include/ShellProcess.h"
+	"../include/Utility.h"
+	"../include/ShellProcess.h"
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/stdafx.cpp
+	"../include/stdafx.h"
+
+1512911179 source:/home/shariq/Development/cpp/ManagdAgent_Lin/src/Utility.cpp
+	"../include/stdafx.h"
+	"../include/Utility.h"
+
