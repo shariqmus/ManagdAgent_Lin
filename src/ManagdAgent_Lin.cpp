@@ -88,8 +88,8 @@ int worker()
 
 	// Post json
 	string url = Utility::GetConfigValue("agent", "endpoint");
-	//FILE_LOG(logINFO)  << "Sending json: " << data;
-	//Utility::PostData(url, data);
+	FILE_LOG(logINFO)  << "Sending json: " << data;
+	Utility::PostData(url, data);
 
 	// Stop/pause the timer
 	timer.stop();
