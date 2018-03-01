@@ -14,10 +14,9 @@
 				<Compiler>
 					<Add option="-std=c++11" />
 					<Add option="-g" />
-					<Add option="-static-libstdc++" />
 				</Compiler>
 				<Linker>
-					<Add option="-lcurl" />
+					<Add option="-lcurl -static-libstdc++" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -28,11 +27,10 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
-					<Add option="-static-libstdc++" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add option="-lcurl" />
+					<Add option="-lcurl -static-libstdc++" />
 				</Linker>
 			</Target>
 		</Build>
